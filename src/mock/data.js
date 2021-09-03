@@ -22,8 +22,8 @@ export const aboutData = {
     'Soy Desarrollador Frontend. Autodidacta entusiasta, con facilidad para trabajar en equipo y siempre dispuesto a recibir feedback. Me gusta resolver problemas y buscar siempre la mejor solución.',
   paragraphTwo:
     'Egresado de Ingeniería Electromecánica de la Universidad de la Salle Bajío, campus Campestre.',
-  paragraphThree: 'Skills: HTML, CSS, Javascript, React, Sass.',
-  resume: 'https://drive.google.com/file/d/1MpKjGDcUEGInEWoNSoFJ8IWqXfDYTJ0-/view?usp=sharing', // if no resume, the button will not show up
+  paragraphThree: 'Skills: React, Redux, React Router, Javascript, Sass, Git, HTML, CSS.',
+  resume: 'https://drive.google.com/file/d/1_ZadOtvVinAUbZqHU-kfmfUyiktdLuL-/view?ths=true', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
