@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'Egresado de Ingeniería Electromecánica de la Universidad de la Salle Bajío, campus Campestre.',
   paragraphThree: 'Skills: React, Redux, React Router, Javascript, Sass, Git, HTML, CSS.',
-  resume: 'https://drive.google.com/file/d/1wkZi3oDLSbZ3xn4ZtyGyJxLs9R4qdS2-/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1_ZadOtvVinAUbZqHU-kfmfUyiktdLuL-/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
