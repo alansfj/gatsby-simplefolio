@@ -3,27 +3,27 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'Alan Soto | Portfolio ', // e.g: 'Name | Developer'
-  lang: 'es', // e.g: en, es, fr, jp
+  lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: 'Hola, soy',
+  title: "Hi, I'm",
   name: 'Alan Soto',
-  subtitle: 'Desarrollador Frontend.',
-  cta: 'Saber más',
+  subtitle: 'Frontend Developer',
+  cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'foto_curriculum.jpg',
   paragraphOne:
-    'Soy Desarrollador Frontend. Autodidacta entusiasta, con facilidad para trabajar en equipo y siempre dispuesto a recibir feedback. Me gusta resolver problemas y buscar siempre la mejor solución.',
+    'I am a Frontend Developer. Enthusiastic self-taught, easy to work in a team and always ready to receive feedback. I like to solve problems and always look for the best solution.',
   paragraphTwo:
-    'Egresado de Ingeniería Electromecánica de la Universidad de la Salle Bajío, campus Campestre.',
+    'Graduated in Electromechanical Engineering from the Universidad de la Salle Bajío, Campestre.',
   paragraphThree: 'Skills: React, Redux, React Router, Javascript, Sass, Git, HTML, CSS.',
-  resume: 'https://drive.google.com/file/d/1_ZadOtvVinAUbZqHU-kfmfUyiktdLuL-/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/122oIzFm1qYn7Hyk1PlUWbJ7mn5HaVLP9/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -32,8 +32,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'the-movie-showcase.png',
     title: 'The Movie Showcase',
-    info: 'Una aplicación web que muestra un catálogo e información de películas y series.',
-    info2: 'Hecho con React.',
+    info: 'A web application that displays a catalog and information on movies and series.',
+    info2: 'React.',
     url: 'https://alansfj.github.io/the-movie-showcase/#/',
     repo: 'https://github.com/alansfj/the-movie-showcase', // if no repo, the button will not show up
   },
@@ -41,8 +41,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'there-is-the-face.png',
     title: 'There is the face',
-    info: 'Una aplicación web que detecta un rostro en imagenes de internet.',
-    info2: 'Hecho con React.',
+    info: 'A web application that detects a face in internet images.',
+    info2: 'React.',
     url: 'https://alansfj.github.io/there-is-the-face/',
     repo: 'https://github.com/alansfj/there-is-the-face', // if no repo, the button will not show up
   },
@@ -50,8 +50,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'nice-todo2.png',
     title: 'Nice ToDo',
-    info: 'Una aplicación web de ToDos que te permite cambiar el tema y mantiene tus tareas guardadas.',
-    info2: 'Hecho con React.',
+    info: 'A ToDos web application that allows you to change the theme and keep your tasks saved.',
+    info2: 'React.',
     url: 'https://alansfj.github.io/nice-ToDo/#/',
     repo: 'https://github.com/alansfj/nice-ToDo', // if no repo, the button will not show up
   },
@@ -60,7 +60,7 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: 'Mandame un correo',
+  btn: 'Send me an email',
   email: 'alansfj348@gmail.com',
 };
 

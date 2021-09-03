@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <Container>
-        <Title title="Contacto" />
+        <Title title="Contact" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <a
