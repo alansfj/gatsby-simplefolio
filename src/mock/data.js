@@ -30,10 +30,19 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'crown-clothing-shop.png',
+    title: 'Crown Clothing Shop',
+    info: 'Un aplicación web tipo eCommerce con funcionalidad de registro/inicio de sesión, carrito de compras e integración de Stripe para pagos.',
+    info2: 'React / Firebase / Redux / React-Router / Sass',
+    url: 'https://alansfj.github.io/crown-clothing-shop/#/',
+    repo: 'https://github.com/alansfj/crown-clothing-shop', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'the-movie-showcase.png',
     title: 'The Movie Showcase',
     info: 'Una aplicación web que muestra un catálogo e información de películas y series.',
-    info2: 'Hecho con React.',
+    info2: 'React / React-Router / Sass',
     url: 'https://alansfj.github.io/the-movie-showcase/#/',
     repo: 'https://github.com/alansfj/the-movie-showcase', // if no repo, the button will not show up
   },
@@ -42,7 +51,7 @@ export const projectsData = [
     img: 'there-is-the-face.png',
     title: 'There is the face',
     info: 'Una aplicación web que detecta un rostro en imagenes de internet.',
-    info2: 'Hecho con React.',
+    info2: 'React',
     url: 'https://alansfj.github.io/there-is-the-face/',
     repo: 'https://github.com/alansfj/there-is-the-face', // if no repo, the button will not show up
   },
@@ -51,9 +60,18 @@ export const projectsData = [
     img: 'nice-todo2.png',
     title: 'Nice ToDo',
     info: 'Una aplicación web de ToDos que te permite cambiar el tema y mantiene tus tareas guardadas.',
-    info2: 'Hecho con React.',
+    info2: 'React / React-Router / Sass',
     url: 'https://alansfj.github.io/nice-ToDo/#/',
     repo: 'https://github.com/alansfj/nice-ToDo', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'test-form.png',
+    title: 'Test Form',
+    info: 'Formulario moderno con validaciones.',
+    info2: 'React / Sass',
+    url: 'https://alansfj.github.io/test-form/',
+    repo: 'https://github.com/alansfj/test-form', // if no repo, the button will not show up
   },
 ];
 
