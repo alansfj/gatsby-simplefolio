@@ -30,10 +30,19 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'crown-clothing-shop.png',
+    title: 'Crown Clothing Shop',
+    info: 'An eCommerce-like web app with Sign Up/Sign In functionality, shopping cart and Stripe integration for online payments.',
+    info2: 'React / Firebase / Redux / React-Router / Sass',
+    url: 'https://alansfj.github.io/crown-clothing-shop/#/',
+    repo: 'https://github.com/alansfj/crown-clothing-shop', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'the-movie-showcase.png',
     title: 'The Movie Showcase',
-    info: 'A web application that displays a catalog and information on movies and series.',
-    info2: 'React.',
+    info: 'A web application that displays a catalog and related data of movies and series.',
+    info2: 'React / React-Router / Sass',
     url: 'https://alansfj.github.io/the-movie-showcase/#/',
     repo: 'https://github.com/alansfj/the-movie-showcase', // if no repo, the button will not show up
   },
@@ -51,9 +60,18 @@ export const projectsData = [
     img: 'nice-todo2.png',
     title: 'Nice ToDo',
     info: 'A ToDos web application that allows you to change the theme and keep your tasks saved.',
-    info2: 'React.',
+    info2: 'React / React-Router / Sass',
     url: 'https://alansfj.github.io/nice-ToDo/#/',
     repo: 'https://github.com/alansfj/nice-ToDo', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'test-form.png',
+    title: 'Test Form',
+    info: 'Modern forms with validations',
+    info2: 'React / Sass',
+    url: 'https://alansfj.github.io/test-form/',
+    repo: 'https://github.com/alansfj/test-form', // if no repo, the button will not show up
   },
 ];
 
